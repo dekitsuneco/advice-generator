@@ -81,7 +81,6 @@ interface SlipObject {
 
 
 export const Card = (): ReactElement => {
-  console.count('Rendered');
   const [isHovered, setIsHovered] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
