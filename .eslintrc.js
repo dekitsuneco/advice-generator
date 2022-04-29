@@ -23,7 +23,9 @@ module.exports = {
     'unused-imports'
   ],
   rules: {
+    '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports-ts': 'warn',
+    'unused-imports/no-unused-vars-ts': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.ts'] }],
   },
   ignorePatterns: ['.eslintrc.js']
