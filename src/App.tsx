@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Card } from './ui-kit/Card';
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Card />
     </div>
   );
 }
